@@ -1,0 +1,29 @@
+[tools]
+dotnet = "10.0"
+
+[tasks.build]
+run = "dotnet build"
+description = "Build the solution"
+
+[tasks.test]
+run = "dotnet test"
+description = "Run all tests"
+
+[tasks.watch]
+run = "dotnet watch test --project InterviewQuestions.Tests"
+description = "Run tests in watch mode"
+
+[tasks.clean]
+run = "dotnet clean"
+description = "Clean build artifacts"
+
+[tasks.restore]
+run = "dotnet restore"
+description = "Restore NuGet packages"
+
+[env]
+DOTNET_CLI_TELEMETRY_OPTOUT = "1"
+DOTNET_NOLOGO = "true"
+
+[settings]
+experimental = true

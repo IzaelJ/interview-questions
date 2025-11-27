@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="InterviewQuestions.Tests/InterviewQuestions.Tests.csproj" />
+  <Project Path="InterviewQuestions/InterviewQuestions.csproj" />
+</Solution>
