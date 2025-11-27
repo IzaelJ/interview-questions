@@ -2,6 +2,10 @@
 
 A collection of coding interview questions and solutions in C#/.NET 10.
 
+![Build Status](https://github.com/izaelj/interview-questions/workflows/CI%2FCD/badge.svg)
+![Code Coverage](https://img.shields.io/badge/coverage-check%20actions-blue)
+![.NET Version](https://img.shields.io/badge/.NET-10.0-purple)
+
 ## Prerequisites
 
 - [mise](https://mise.jdx.dev/) (for .NET SDK management)
